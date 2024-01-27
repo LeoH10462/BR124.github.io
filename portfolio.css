@@ -1,0 +1,65 @@
+ /* Carousel image sizes */
+#hobbyCarousel .carousel-item img {
+    width: 100%; /* responsive width */
+    height: 500px; /* keep the height fixed height */
+    object-fit: cover; /* don't want the image to be distorted */
+}
+
+.text-center{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-size: 16px;
+}
+
+h2.text-center{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* change body prop */
+body {
+    background-image: url('images/_wallpaper.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.carousel-item img {
+    height: 500px; /* Set a fixed height */
+    width: 100%; /* Set width to be responsive */
+    object-fit: cover; /* Ensure the image covers the area without distorting aspect ratio */
+}
+
+/* Style for Project Title */
+.project-details h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Style for Project Paragraphs */
+.project-details p {
+    text-align: justify;
+}
+
+/* Style for Images in Project Details */
+.project-details img {
+    width: 70%;
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto; 
+}
+
+.project-details p {
+    font-size: 16px; /* Example font size */
+    color: #333; /* Example text color */
+    /* Add more styles as needed */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* Example background color */
+    color: #333; /* Example text color */
+}
+
+    
